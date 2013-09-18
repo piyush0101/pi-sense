@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+dependencies {
+	compile 'org.eclipse.jetty:jetty-server:9.0.5.v20130815'
+    compile 'org.eclipse.jetty:jetty-servlet:9.0.5.v20130815'
+    compile 'com.sun.jersey:jersey-client:1.17.1'
+    compile 'javax.ws.rs:jsr311-api:1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
