@@ -1,7 +1,13 @@
 gen
 out
-*.iml
-.idea
-*.swp
+
 build
 .gradle
+
+*.ipr
+*.iml
+*.iws
+.idea
+*.swp
+
+
